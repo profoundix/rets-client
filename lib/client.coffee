@@ -32,7 +32,8 @@ class Client
     
     @headers =
       'User-Agent': @settings.userAgent || 'RETS node-client/4.x',
-      'RETS-Version': @settings.version || 'RETS/1.7.2'
+      'RETS-Version': @settings.version || 'RETS/1.7.2',
+      'Accept': '*/*'
 
     # add RETS-UA-Authorization header
     if @settings.userAgentPassword
