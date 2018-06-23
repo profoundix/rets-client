@@ -1,6 +1,6 @@
 {
   "name": "rets-client",
-  "version": "5.2.4",
+  "version": "5.2.5",
   "description": "A RETS client (Real Estate Transaction Standard).",
   "main": "index.js",
   "typings": "dts/index.ts",
@@ -28,6 +28,7 @@
     "typescript": "^2.5.3"
   },
   "files": [
+    "lib",
     "dist",
     "dts",
     "index.js"
