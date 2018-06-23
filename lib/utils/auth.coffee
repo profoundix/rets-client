@@ -34,8 +34,8 @@ login = (retsSession, client) ->
     systemData = {}
     gotData = false
     retsParser.parser.on 'text', (text) ->
-      if retsParser.currElementName != 'RETS-RESPONSE'
-        return
+      #if retsParser.currElementName != 'RETS-RESPONSE'
+      #  return
       gotData = true
       keyVals = text.split('\r\n')
       for keyVal in keyVals
