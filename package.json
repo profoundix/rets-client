@@ -36,7 +36,6 @@
   "scripts": {
     "pretest": "coffee --compile --output dist/ lib/ && tsc --noEmit",
     "test": "node_modules/mocha/bin/_mocha --compilers ts-node/register test/*.ts",
-    "prepare": "npm run test",
     "postinstall": "coffee --compile --output dist/ lib/",
     "dev": "coffee --watch --output dist lib/"
   },
